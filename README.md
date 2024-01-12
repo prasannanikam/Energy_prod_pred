@@ -1,4 +1,4 @@
-# Gradient Boosting Regression Project
+# Energy_Production_prediction Project
 
 ## Overview
 
