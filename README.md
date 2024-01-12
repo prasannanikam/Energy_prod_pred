@@ -1,37 +1,33 @@
-# Project Title
-
-Short description of your project.
+# Gradient Boosting Regression Project
 
 ## Overview
 
-Provide a brief overview of the project, including its purpose and main features.
+The Gradient Boosting Regression Project is a machine learning project that focuses on predicting [target variable] using the Gradient Boosting Regression algorithm. The model is trained on a [describe the dataset] dataset to achieve accurate predictions.
+
+## Features
+
+- **Gradient Boosting Regression**: Utilizes the GradientBoostingRegressor from scikit-learn to build an ensemble of decision trees for regression.
+- **Hyperparameter Tuning**: GridSearchCV and RandomizedSearchCV are employed to find the optimal hyperparameters for the model.
+- **Model Evaluation**: The project evaluates the model using mean squared error (MSE) and R-squared score on a test set.
 
 ## Getting Started
 
 ### Prerequisites
 
-List any prerequisites or dependencies that need to be installed before running the code. Include versions if necessary.
+Make sure you have the following installed:
 
-# Example installation command
+- Python 3.x
+- Required packages (install using `pip install -r requirements.txt`)
+
+### Installation
+
+Clone the repository and navigate to the project folder:
+
+git clone https://github.com/your-username/gradient-boosting-project.git
+cd gradient-boosting-project
 pip install -r requirements.txt
 
-
-# Clone the repository
-git clone https://github.com/your-username/your-repo.git
-
-# Change directory
-cd your-repo
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Example command
-python your_script.py
-
-
-# Train the model
 python train_model.py
 
-# Evaluate the model
-python evaluate_model.py
+python save_model.py
 
